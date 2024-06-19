@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <servlet>
+  <servlet-name>raj</servlet-name>
+  <servlet-class>com.servlet.toppers.CreateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>raj</servlet-name>
+  <url-pattern>/form1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>raj1</servlet-name>
+  <servlet-class>com.servlet.toppers.GetAll</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>raj1</servlet-name>
+  <url-pattern>/form2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>raj2</servlet-name>
+  <servlet-class>com.servlet.toppers.UpdateSer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>raj2</servlet-name>
+  <url-pattern>/form3</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>raj3</servlet-name>
+  <servlet-class>com.servlet.toppers.DeletebyId</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>raj3</servlet-name>
+  <url-pattern>/form4</url-pattern>
+  </servlet-mapping>
+   <servlet>
+  <servlet-name>raj4</servlet-name>
+  <servlet-class>com.servlet.toppers.GetById</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>raj4</servlet-name>
+  <url-pattern>/form5</url-pattern>
+  </servlet-mapping>
+</web-app>
